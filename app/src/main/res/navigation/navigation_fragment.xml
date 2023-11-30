@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_fragment"
+    app:startDestination="@id/home">
+
+  <fragment
+      android:id="@+id/home"
+      android:name="com.example.a07112023.HomeFragment"
+      android:label="HomeFragment" />
+  <fragment
+      android:id="@+id/cart"
+      android:name="com.example.a07112023.CartFragment"
+      android:label="CartFragment" />
+  <fragment
+      android:id="@+id/orders"
+      android:name="com.example.a07112023.OrdersFragment"
+      android:label="OrdersFragment" />
+  <fragment
+      android:id="@+id/user"
+      android:name="com.example.a07112023.UserFragment"
+      android:label="UserFragment" />
+  <fragment
+      android:id="@+id/wishlist"
+      android:name="com.example.a07112023.WishListFragment"
+      android:label="WishListFragment" />
+</navigation>

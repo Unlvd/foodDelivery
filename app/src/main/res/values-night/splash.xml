@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Theme.MyApp.MySplash" parent="Theme.SplashScreen">
+    <item name="android:windowSplashScreenBackground">#000000</item>
+    <item name="android:windowSplashScreenAnimatedIcon">@drawable/baseline_1x_mobiledata_24</item>
+    <item name="postSplashScreenTheme">@style/Theme._07112023</item>
+  </style>
+</resources>
